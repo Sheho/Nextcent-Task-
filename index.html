@@ -1,0 +1,366 @@
+<!Doctype html>
+<html lang="en" data-theme="nexcent">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+
+    <!-- Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="navbar sticky top-0 z-50 bg-base-100 px-26">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="-1"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                </ul>
+            </div>
+            <img src="./images/logo/logo-dark.png" class="w-28"  alt="Nexcent Logo">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Features</a></li>
+                <li><a>Product</a></li>
+                <li><a>Testimonials</a></li>
+                <li><a>FAQ</a></li>
+                <li>
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn btn-outline border-0 btn-primary">Login</a>
+            <a class="btn btn-primary">Button</a>
+        </div>
+    </div>
+
+
+    <div class="flex justify-between items-center px-20 bg-base-100 py-14">
+
+        <div class="flex flex-col gap-5">
+            <h1 class="text-[3rem] leading-tight font-semibold">Lessons and insights <br> <span
+                    class="text-primary">from 8 years</span></h1>
+            <p>Where to grow your business as a photographer: site or social media?</p>
+            <button class="btn btn-primary self-start px-10">Register</button>
+        </div>
+
+        <img src="./images/illustration/Illustration.png" alt="" class="w-4/12">
+    </div>
+
+    <div class="bg-base-200 py-10">
+        <div class="text-center">
+            <h2 class="font-semibold text-[2rem]">Our Clients</h2>
+            <p>We have been working with some Fortune 500+ clients</p>
+        </div>
+
+        <div class="flex justify-center gap-28 py-14">
+            <img src="./images/clients/01.png" alt="client 01" class="w-[2.5rem] cursor-pointer">
+            <img src="./images/clients/02.png" alt="client 02" class="w-[2.5rem] cursor-pointer">
+            <img src="./images/clients/03.png" alt="client 03" class="w-[2.5rem] cursor-pointer">
+            <img src="./images/clients/04.png" alt="client 04" class="w-[2.5rem] cursor-pointer">
+            <img src="./images/clients/05.png" alt="client 05" class="w-[2.5rem] cursor-pointer">
+            <img src="./images/clients/06.png" alt="client 06" class="w-[2.5rem] cursor-pointer">
+            <img src="./images/clients/07.png" alt="client 07" class="w-[2.5rem] cursor-pointer">
+        </div>
+
+
+        <div class="text-center bg-base-200 mb-10">
+            <h2 class="font-semibold text-[1.8rem]">Manage your entire community <br> in a single system </h2>
+            <p class="text-sm text-base-content/60">Who is Nexcent suitable for?</p>
+        </div>
+
+
+        <div class="flex justify-between px-30">
+            <div class="max-w-[16rem] text-center  shadow-lg rounded-lg space-y-3 p-5">
+                <img src="./images/Icons/Icon (7).png" class="mx-auto max-w-[2.5rem]" alt="icon 01">
+                <h3 class="font-bold text-[1.4rem] leading-tight">Memebership <br> Organizations</h3>
+                <p class="text-[0.8rem] text-base-content/80">Our membership management software provides full
+                    automation of membership renewals and payments</p>
+            </div>
+
+            <div class="max-w-[16rem] text-center shadow-lg rounded-lg p-5  space-y-3">
+                <img src="./images/Icons/Icon (8).png" class="mx-auto max-w-[2.5rem]" alt="icon 02">
+                <h3 class="font-bold text-[1.4rem] leading-tight">National <br> Associations </h3>
+                <p class="text-[0.8rem] text-base-content/80">Our membership management software provides full
+                    automation of membership renewals and payments </p>
+            </div>
+
+            <div class="max-w-[16rem] text-center shadow-lg rounded-lg p-5 space-y-3">
+                <img src="./images/Icons/Icon (9).png" class="mx-auto max-w-[2.5rem]" alt="icon 03">
+                <h3 class="font-bold text-[1.4rem] leading-tight">Club And <br> Groups</h3>
+                <p class="text-[0.8rem] text-base-content/80">Our membership management software provides full
+                    automation of membership renewals and payments </p>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center py-16 px-30">
+            <img src="./images/illustration/03.png" class="w-5/12" alt="Illustration3">
+
+            <div class="flex flex-col gap-5 w-1/2">
+                <h2 class="font-semibold text-[2rem]">The unseen of spending three <br> years at Pixelgrade </h2>
+                <p class="text-[0.8rem] text-base-content/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat
+                    vestibulum lorem sed porta.
+                    Nullam mattis tristique laculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa
+                    pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio. </p>
+                <button class="btn btn-primary self-start px-10"><a href="#">Learn More</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-between items-center px-30 py-20">
+        <div>
+            <h2 class="font-semibold text-[2.3rem] leading-tight">Helping a local <br> <span
+                    class="text-primary">business reinvent itself</span></h2>
+            <p class="text-base-content">We reached here with our hard work and dedication</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-x-18 gap-y-6">
+            <div class="flex gap-3 items-center">
+                <img src="./images/Icons/Icon (10).png" class="w-[2.4rem]" alt="icon 13">
+                <div class="flex flex-col -space-y-1">
+                    <h3 class="font-bold text-[1.5rem]">2,245,341</h3>
+                    <p class="text-base-content/80">Members</p>
+                </div>
+            </div>
+
+            <div class="flex gap-3 items-center">
+                <img src="./images/Icons/Icon (11).png" class="w-[2.4rem]" alt="icon 13">
+                <div class="flex flex-col -space-y-1">
+                    <h3 class="font-bold text-[1.5rem]">46,329</h3>
+                    <p>Clubs</p>
+                </div>
+
+            </div>
+
+            <div class="flex gap-3 items-center">
+                <img src="./images/Icons/Icon (12).png" class="w-[2.4rem]" alt="icon 13">
+                <div class="flex flex-col -space-y-1">
+                    <h3 class="font-bold text-[1.5rem]">828,867</h3>
+                    <p>Event Bookings</p>
+                </div>
+
+            </div>
+
+            <div class="flex gap-3 items-center">
+                <img src="./images/Icons/Icon (13).png" class="w-[2.4rem]" alt="icon 13">
+                <div class="flex flex-col -space-y-1">
+                    <h3 class="font-bold text-[1.5rem]">1,926,436</h3>
+                    <p>Payments</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="py-16 px-30 bg-base-200">
+
+        <div class="flex justify-between items-center py-16">
+
+            <img src="./images/illustration/pana.png" class="w-5/12" alt="illustration4">
+
+            <div class="flex flex-col gap-5 w-1/2">
+                <h2 class="font-semibold text-[2rem] leading-tight">How to design your footer like <br> we did </h2>
+                <p class="text-base-content/60 text-[0.81rem]">Donec a eros justo. Fusce egestas tristique ultrices. Nam
+                    tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna.
+                    Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo
+                    dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna
+                    tincidunt.
+                    Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et
+                    nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida. </p>
+                <button class="btn btn-primary self-start px-10"><a href="#">Learn More</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex justify-between items-center px-30 py-10 bg-base-100 gap-16">
+        <img src="./images/01.png" class="w-3/12" alt="image1">
+
+        <div class="flex flex-col gap-y-3">
+            <p class="text-base-content/60 text-[0.81rem]">
+                Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                tincidunt ullamcorper.
+                Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie
+                arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
+                Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu
+                turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante
+                feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id.
+                Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+            </p>
+            <h4 class="text-primary font-semi-bold text-lg">
+                Tim Smith
+            </h4>
+
+            <p class="text-base-content/60 text-sm">British Dragon Boat Racing Association</p>
+
+            <div class="flex justify-between items-center">
+                <div class="inline-flex items-center gap-5">
+                    <img src="./images/clients/08.png" class="w-[2.5rem] cursor-pointer" alt="">
+                    <img src="./images/clients/02.png" class="w-[2.5rem] cursor-pointer" alt="">
+                    <img src="./images/clients/03.png" class="w-[2.5rem] cursor-pointer" alt="">
+                    <img src="./images/clients/04.png" class="w-[2.5rem] cursor-pointer" alt="">
+                    <img src="./images/clients/05.png" class="w-[2.5rem] cursor-pointer" alt="">
+                    <img src="./images/clients/06.png" class="w-[2.5rem] cursor-pointer" alt="">
+                </div>
+
+                <button class="btn btn-outline btn-primary border-0 font-semi-bold text-lg">
+                    <a href="">Meet all customers <i class="bi bi-arrow-right"></i> </a>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-base-200 px-30 py-10 space-y-8">
+        <div class="text-center ">
+            <h2 class="font-semi-bold text-[1.8rem]">Caring is the new marketing </h2>
+            <p class="text-sm text-base-content/60 mx-auto m-w-[70ch]">The Nexcent blog is the best place to read about
+                the latest membership insights, trends and more. See who's joining the community,
+                read about how our community are increasing their membership income and lot's more. </p>
+        </div>
+
+        <div class="flex justify-center gap-6">
+            <div class="flex flex-col max-w-[20rem]">
+                <img src="./images/02.png" alt="image3">
+
+                <div class="bg-base-100 p-4 rounded-lg text-center -mt-24 shadow-lg mx-auto w-[85%]">
+                    <p class="font-semi-bold mx-auto text-base-content/80 text-[1.3rem] max-w-[25ch]">Creating
+                        Streamlined Safeguarding Processes with OneRen </p>
+                    <button class="btn btn-primary btn-outline border-0 btn-lg"><a href="#">Read more <i
+                                class="bi bi-arrow-right"></i></a></button>
+                </div>
+
+            </div>
+
+            <div class="flex flex-col max-w-[20rem]">
+                <img src="./images/03.png" alt="image3">
+
+                <div class="bg-base-100 p-4 rounded-lg text-center -mt-24 shadow-lg mx-auto w-[85%]">
+                    <p class="font-semi-bold mx-auto text-base-content/80 text-[1.3rem] max-w-[25ch]">Creating
+                        Streamlined Safeguarding Processes with OneRen </p>
+                    <button class="btn btn-primary btn-outline border-0 btn-lg"><a href="#">Read more <i
+                                class="bi bi-arrow-right"></i></a></button>
+                </div>
+
+            </div>
+
+            <div class="flex flex-col max-w-[20rem]">
+                <img src="./images/04.png" alt="image3">
+
+                <div class="bg-base-100 p-4 rounded-lg text-center -mt-24 shadow-lg mx-auto w-[85%]">
+                    <p class="font-semi-bold mx-auto text-base-content/80 text-[1.3rem] max-w-[25ch]">Creating
+                        Streamlined Safeguarding Processes with OneRen </p>
+                    <button class="btn btn-primary btn-outline border-0 btn-lg"><a href="#">Read more <i
+                                class="bi bi-arrow-right"></i></a></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-base-100 py-8 text-center space-y-7">
+        <h3 class="text-5xl font-semibold max-w-[18ch] mx-auto leading-tight">
+            Pellentesque suscipit fringilla libero eu.
+            </h2>
+
+            <button class="btn btn-primary btn-lg font-normal"><a href="#">Get a Demo <i
+                        class="bi bi-arrow-right"></i></a></button>
+    </div>
+
+    <footer class="flex justify-between bg-secondary py-16 px-30">
+        <div class="flex flex-col gap-y-7">
+            <img src="./images/logo/logo-light.png" class="w-[10rem]" alt="">
+
+            <p class="text-secondary-content/60 text-sm max-w-[26ch]">Copyright © 2020 Nexcent Itd. All rights reserved
+            </p>
+
+            <div class="flex items-center gap-3">
+                <a href="#"
+                    class="btn rounded-full btn-circle btn-sm bg-base-100/10 text-secondary-content/80 border-0 shadow-none">
+                    <i class="bi bi-instagram text-[1rem]"></i>
+                </a>
+
+                <a href="#"
+                    class="btn rounded-full btn-circle btn-sm bg-base-100/10 text-secondary-content/80 border-0 shadow-none">
+                    <i class="bi bi-dribbble text-[1rem]"></i>
+                </a>
+
+                <a href="#"
+                    class="btn rounded-full btn-circle btn-sm bg-base-100/10 text-secondary-content/80 border-0 shadow-none">
+                    <i class="bi bi-twitter text-[1rem]"></i>
+                </a>
+
+                <a href="#"
+                    class="btn rounded-full btn-circle btn-sm bg-base-100/10 text-secondary-content/80 border-0 shadow-none">
+                    <i class="bi bi-youtube text-[1rem]"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="flex gap-x-22">
+                <div class="flex flex-col space-y-5">
+                    <h6 class="font-semibold text-secondary-content text-[1.1rem]">Company</h6>
+                    <ul class="text-secondary-content/80 text-sm space-y-2">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col space-y-5">
+                    <h6 class="font-semibold text-secondary-content text-[1.1rem]">Support</h6>
+                    <ul class="text-secondary-content/80 text-sm space-y-2">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col space-y-5">
+                    <h6 class="font-semibold text-secondary-content text-[1.1rem]">Resources</h6>
+                    <label class="input bg-base-100/20 text-secondary-content shadow-none">
+                        <input type="text" placeholder="domain name" />
+                        <span class="label border-0">
+                            <i class="bi bi-send"></i>
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    </div>
+
+
+</body>
+
+</html>
